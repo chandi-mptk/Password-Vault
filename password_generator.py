@@ -30,7 +30,7 @@ class PasswordGenerator:
         self.password_length = 0
 
     @staticmethod
-    # Salt and Key Generator From Master Password
+    # Salt and Key Generator From Master Password 
     def key_generate(m_pass, salt):
 
         kdf = PBKDF2HMAC(algorithm=hashes.SHA256(),
