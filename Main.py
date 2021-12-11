@@ -4,7 +4,7 @@ import window as win
 
 if __name__ == "__main__":
 
-    # Initialize Password Generate Class
+    # Initialize Password Generate Class 
     password_gen = pg.PasswordGenerator()
 
     # Initialize Database Manager Class
