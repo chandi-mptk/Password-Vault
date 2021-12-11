@@ -7,7 +7,7 @@ class ManageDB:
     def __init__(self, password_gen):
         self.password_gen = password_gen
 
-        # Current Program Path
+        # Current Program Path 
         program_path = os.path.abspath(os.getcwd())
         # Data Folder Full Path
         data_path = os.path.join(program_path, "Data")
