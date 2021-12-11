@@ -26,7 +26,7 @@ class Window:
 
     def __init__(self, db_mgr, password_gen, state):
 
-        # Tkinter Variables
+        # Tkinter Variables 
         self.m_password_var = StringVar()
         self.m_user_name_var = StringVar()
         self.first_name_var = StringVar()
